@@ -1,0 +1,23 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "play project",
+  "main": "calc.js",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node calc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbs3/calculator.git"
+  },
+  "author": "brian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianbs3/calculator/issues"
+  },
+  "homepage": "https://github.com/brianbs3/calculator#readme"
+}
