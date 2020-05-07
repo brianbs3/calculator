@@ -1,4 +1,5 @@
 const double_each = (numbers) => {
+    console.log('numbers from funct:', numbers)
     return numbers.map(n => n * 2);
 };
 
