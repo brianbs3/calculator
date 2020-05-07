@@ -1,5 +1,4 @@
 const double_each = (numbers) => {
-    console.log('numbers from funct:', numbers)
     return numbers.map(n => n * 2);
 };
 
@@ -40,11 +39,47 @@ const median = (numbers) => {
         numbers[parseInt(numbers.length/2)];
 }
 
+const add = (a,b) => {
+    return a+b;
+}
+const sub = (a,b) => {
+    return a-b;
+}
+const mul = (a,b) => {
+    return a*b;
+}
+const div = (a,b) => {
+    return a/b;
+}
+
+const f2c = (f) => {
+    return((f-32)/1.8);
+}
+
+const f2c_all = (numbers) => {
+    return numbers.map(n => f2c(n));
+}
+
+const c2f = (n) => {
+    return ((n * (9/5)) + 32)
+}
+const c2f_all = (numbers) => {
+    return numbers.map(n => c2f(n));
+}
+
 module.exports = {
     double_each,
     square_each,
     sum,
     mean,
     sort,
-    median
+    median,
+    add,
+    sub,
+    mul,
+    div,
+    f2c,
+    f2c_all,
+    c2f,
+    c2f_all
 };
