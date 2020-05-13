@@ -12,6 +12,7 @@ def variance(numbers):
     tmp = []
     for n in numbers:
         tmp.append((n - theMean)**2)
+    print(tmp)
     varSum = sum(tmp)
     return varSum / (len(numbers) - 1)
 
